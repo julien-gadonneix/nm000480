@@ -1,0 +1,98 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Elizabeth L. Johnson": {
+      "orcid": "0000-0001-5297-5019"
+    },
+    "Jack J. Lin": {},
+    "David King-Stephens": {},
+    "Peter B. Weber": {
+      "orcid": "0000-0002-9900-4823"
+    },
+    "Kenneth D. Laxer": {},
+    "Ignacio Saez": {
+      "orcid": "0000-0003-0651-2069"
+    },
+    "Fady Girgis": {},
+    "Mark D'Esposito": {},
+    "Robert T. Knight": {
+      "orcid": "0000-0001-8686-1685"
+    },
+    "David Badre": {
+      "orcid": "0000-0001-7538-6241"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.17605/OSF.IO/RX2ZD",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1038/s41467-023-38574-7",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000480",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000480",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "s500-literature-171: Working-memory gating task iEEG, epoched bipolar ECoG/sEEG from 11 patients with Yeo-7 network labels (Johnson et al., 2023) (derivative)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "2.38 GB (34 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".m",
+    ".mat",
+    ".py",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "Epoched, bipolar-referenced intracranial EEG (ECoG and sEEG) from 11 neurosurgical patients performing a single-trial working-memory gating task with context-first and context-last conditions. This derivative repackages the authors' filtered, artifact-cleaned epochs from OSF into BIDS, with trial-level events, electrode coordinates and Yeo-7 network labels. It supports study of theta network mechanisms of flexible information encoding in prefrontal and distributed cortex.",
+  "methods_description": "Intracranial EEG was recorded from epilepsy patients undergoing clinical monitoring and was bipolar-referenced, filtered and artifact-cleaned by the original authors. Epochs from the FieldTrip structures were rewritten as BrainVision float32 files with trial info as events and electrode positions from data.elec.chanpos. Channel types were inferred from the bipolar pair numbering.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "working memory"
+    },
+    {
+      "term": "input gating"
+    },
+    {
+      "term": "Theta Rhythm",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013826"
+    },
+    {
+      "term": "Prefrontal Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017397"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    }
+  ],
+  "source_hash": "525fe8c47989f2609bf00cd43af22a4d037b075a11e660ebc588ab9e0abd881f"
+}
