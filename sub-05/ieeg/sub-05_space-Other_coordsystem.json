@@ -1,0 +1,6 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "mm",
+  "iEEGCoordinateSystemDescription": "Coordinates of the bipolar channels as released in data.elec.chanpos (FieldTrip elec structure; chanpos == elecpos). The article localizes electrodes in native space (CT to MR co-registration in FieldTrip) and transforms them to MNI space for group display and Yeo-7 assignment; the release does not state which of the two spaces chanpos is in, so the system is recorded as Other.",
+  "iEEGCoordinateProcessingDescription": "Copied from the release; no processing."
+}

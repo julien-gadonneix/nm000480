@@ -1,0 +1,9 @@
+{
+  "SpatialReference": "n/a (release does not state whether chanpos is in the subject's native space or MNI space)",
+  "yeo7_network": {
+    "Description": "Yeo-7 atlas network assigned by the authors to the bipolar channel from its MNI coordinates (release yeo.mat yeo_key): VSN visual, SMN somatomotor, DAN dorsal attention, VAN ventral attention, LBN limbic, FP frontoparietal, DMN default mode"
+  },
+  "yeo7_number": {
+    "Description": "Yeo-7 network number as released (yeo_num)"
+  }
+}

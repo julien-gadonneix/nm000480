@@ -1,0 +1,74 @@
+{
+  "onset": {
+    "Description": "Start of the trial segment in this file (trials are written back-to-back)",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Length of the trial segment",
+    "Units": "s"
+  },
+  "sample": {
+    "Description": "First sample of the trial segment in the file (0-based)"
+  },
+  "trial_index": {
+    "Description": "Trial number in the released file (1-based, release order)"
+  },
+  "trial_time_start": {
+    "Description": "Authors' time axis value of the first sample of the trial (s, relative to the trial's event; n/a if not released)",
+    "Units": "s"
+  },
+  "trl_num": {
+    "Description": "data.trialinfo row 'trl_num' as released (names from trialinfo.mat)"
+  },
+  "context": {
+    "Description": "data.trialinfo row 'context' as released (names from trialinfo.mat)"
+  },
+  "congruency": {
+    "Description": "data.trialinfo row 'congruency' as released (names from trialinfo.mat)"
+  },
+  "stimuli": {
+    "Description": "data.trialinfo row 'stimuli' as released (names from trialinfo.mat)"
+  },
+  "rt": {
+    "Description": "data.trialinfo row 'rt' as released (names from trialinfo.mat)"
+  },
+  "acc": {
+    "Description": "data.trialinfo row 'acc' as released (names from trialinfo.mat)"
+  },
+  "Rel": {
+    "Description": "data.trialinfo row 'Rel' as released (names from trialinfo.mat)"
+  },
+  "Irrel": {
+    "Description": "data.trialinfo row 'Irrel' as released (names from trialinfo.mat)"
+  },
+  "stim1": {
+    "Description": "data.trialinfo row 'stim1' as released (names from trialinfo.mat)"
+  },
+  "stim2": {
+    "Description": "data.trialinfo row 'stim2' as released (names from trialinfo.mat)"
+  },
+  "stim3": {
+    "Description": "data.trialinfo row 'stim3' as released (names from trialinfo.mat)"
+  },
+  "digitStimuli": {
+    "Description": "data.trialinfo row 'digitStimuli' as released (names from trialinfo.mat)"
+  },
+  "digit_position": {
+    "Description": "data.trialinfo row 'digit_position' as released (names from trialinfo.mat)"
+  },
+  "target_position": {
+    "Description": "data.trialinfo row 'target_position' as released (names from trialinfo.mat)"
+  },
+  "distractor_position": {
+    "Description": "data.trialinfo row 'distractor_position' as released (names from trialinfo.mat)"
+  },
+  "s2_onset": {
+    "Description": "data.trialinfo row 's2_onset' as released (names from trialinfo.mat)"
+  },
+  "s3_onset": {
+    "Description": "data.trialinfo row 's3_onset' as released (names from trialinfo.mat)"
+  },
+  "resp_onset": {
+    "Description": "data.trialinfo row 'resp_onset' as released (names from trialinfo.mat)"
+  }
+}

@@ -1,0 +1,28 @@
+# Johnson et al. (2023), "A rapid theta network mechanism for flexible information encoding": epoched iEEG
+
+Preprocessed, bipolar-referenced intracranial EEG from 11 neurosurgical patients (11 recordings, 1.56 h of
+epochs) performing a single-trial working-memory gating task (context-first / context-last), released by the authors on OSF
+(https://osf.io/rx2zd/, CC-BY 4.0) together with the analysis scripts.
+
+THIS IS A DERIVATIVE DATASET: the release holds the authors' epoched, filtered, artifact-cleaned bipolar channels (article
+Methods), not the raw clinical recordings.
+
+## Contents
+- `sub-NN/ieeg/sub-NN_task-wmgating_ieeg.*`: the released `data.trial` epochs written back-to-back (one `New Segment` marker
+  per trial; `events.tsv` gives each trial's position, its authors' time axis start (-1 s) and every `trialinfo` field as
+  released: trl_num, context, congruency, stimuli, rt, acc, Rel, Irrel, stim1, stim2, stim3, digitStimuli, digit_position, target_position, distractor_position, s2_onset, s3_onset, resp_onset). Unit µV assumed (not stated in the release); values unchanged.
+- Channel names are the bipolar pairs (e.g. `LF9-LF1`). The channel type is INFERRED from the pair numbering following the
+  article's montage rule (sEEG: deep-surface neighbours, adjacent numbers; ECoG grids: row-by-row neighbours, non-adjacent
+  numbers); the release itself does not state the electrode type per channel.
+- `sub-NN_space-Other_electrodes.tsv`: `data.elec.chanpos` of each bipolar channel as released. The release does not state
+  whether chanpos is in native or MNI space (the article localizes in native space and transforms to MNI for group display),
+  hence `space-Other`; see coordsystem.json. The per-subject `yeo.mat` (Yeo-7 network per task-responsive electrode) lists
+  fewer entries than channels and carries no channel names, so it could not be mapped to channels; it is kept in sourcedata/
+  (counts per subject in code/conversion_report.json, key yeo_unmapped). Where its length matches the channel count the
+  network is written to the `yeo7_network` column.
+- `participants.tsv`: no per-subject age or sex in the release (article Table S1).
+- `sourcedata/osf-rx2zd/`: every release file (data incl. `behavior.mat`, `trialinfo.mat`, scripts) unchanged apart from MAT
+  text-header dates reduced to month/year; `DEIDENTIFICATION_MANIFEST.tsv` lists sha-256 before and after.
+
+## Privacy
+Subjects are numbered S1-S11; files hold trial parameters, responses and reaction times only.

@@ -1,0 +1,12 @@
+participant_id	age	sex	source_id	sampling_frequency	n_trials	n_channels
+sub-01	n/a	n/a	S1	1000.0	76	49
+sub-02	n/a	n/a	S2	1000.0	75	49
+sub-03	n/a	n/a	S3	1000.0	80	57
+sub-04	n/a	n/a	S4	1000.0	60	42
+sub-05	n/a	n/a	S5	1000.0	74	43
+sub-06	n/a	n/a	S6	1000.0	69	29
+sub-07	n/a	n/a	S7	1000.0	73	33
+sub-08	n/a	n/a	S8	1000.0	47	20
+sub-09	n/a	n/a	S9	1000.0	73	80
+sub-10	n/a	n/a	S10	512.0	75	42
+sub-11	n/a	n/a	S11	512.0	58	5

@@ -1,0 +1,21 @@
+{
+  "age": {
+    "Description": "not in the release (article Table S1)"
+  },
+  "sex": {
+    "Description": "not in the release"
+  },
+  "source_id": {
+    "Description": "subject folder in the release"
+  },
+  "sampling_frequency": {
+    "Description": "Sampling rate of the released epochs (1 kHz UCI/CPMC, 512 Hz UCD)",
+    "Units": "Hz"
+  },
+  "n_trials": {
+    "Description": "trials in the release"
+  },
+  "n_channels": {
+    "Description": "bipolar channels in the release"
+  }
+}

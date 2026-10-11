@@ -1,0 +1,6 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	reference	group	status	status_description	description
+ROF4-ROF5	SEEG	µV	0.1	n/a	512.0	bipolar (ROF4-ROF5)	ROF	good	n/a	bipolar pair of neighbouring contacts (article montage)
+ROF9-ROF10	SEEG	µV	0.1	n/a	512.0	bipolar (ROF9-ROF10)	ROF	good	n/a	bipolar pair of neighbouring contacts (article montage)
+RPC7-RPC8	SEEG	µV	0.1	n/a	512.0	bipolar (RPC7-RPC8)	RPC	good	n/a	bipolar pair of neighbouring contacts (article montage)
+RPC8-RPC9	SEEG	µV	0.1	n/a	512.0	bipolar (RPC8-RPC9)	RPC	good	n/a	bipolar pair of neighbouring contacts (article montage)
+RPC9-RPC10	SEEG	µV	0.1	n/a	512.0	bipolar (RPC9-RPC10)	RPC	good	n/a	bipolar pair of neighbouring contacts (article montage)

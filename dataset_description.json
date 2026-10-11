@@ -1,0 +1,50 @@
+{
+  "Name": "s500-literature-171: Working-memory gating task iEEG, epoched bipolar ECoG/sEEG from 11 patients with Yeo-7 network labels (Johnson et al., 2023) (derivative)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Elizabeth L. Johnson",
+    "Jack J. Lin",
+    "David King-Stephens",
+    "Peter B. Weber",
+    "Kenneth D. Laxer",
+    "Ignacio Saez",
+    "Fady Girgis",
+    "Mark D'Esposito",
+    "Robert T. Knight",
+    "David Badre"
+  ],
+  "HowToAcknowledge": "Cite Johnson EL, Lin JJ, King-Stephens D, Weber PB, Laxer KD, Saez I, Girgis F, D'Esposito M, Knight RT, Badre D (2023) A rapid theta network mechanism for flexible information encoding. Nature Communications 14:2872, doi:10.1038/s41467-023-38574-7; and the OSF dataset https://osf.io/rx2zd/.",
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1038/s41467-023-38574-7",
+    "https://doi.org/10.17605/OSF.IO/RX2ZD",
+    "https://osf.io/rx2zd/"
+  ],
+  "Keywords": [
+    "intracranial EEG",
+    "working memory",
+    "input gating",
+    "theta",
+    "high-frequency broadband",
+    "prefrontal cortex",
+    "Yeo networks",
+    "epilepsy"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.17605/OSF.IO/RX2ZD",
+      "URL": "https://osf.io/rx2zd/",
+      "Version": "OSF node rx2zd, 44 files as listed 2026-10-11 (sha256 per file in sourcedata/osf-rx2zd/DEIDENTIFICATION_MANIFEST.tsv)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "o5c_A2_convert_lit171.py",
+      "Description": "Repackaging of the FieldTrip epoch structs (data.trial) into BrainVision float32, trials back-to-back, with data.trialinfo as events, data.elec.chanpos as electrodes and the Yeo-7 assignment as electrode/channel labels. Code in code/."
+    }
+  ],
+  "EthicsApprovals": [
+    "Collected under research protocols approved by the Institutional Review Boards of UC Irvine, UC Davis and California Pacific Medical Center; written informed consent (article)."
+  ]
+}

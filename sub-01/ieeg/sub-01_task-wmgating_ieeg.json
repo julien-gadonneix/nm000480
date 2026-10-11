@@ -1,0 +1,27 @@
+{
+  "TaskName": "wmgating",
+  "TaskDescription": "Single-trial working-memory gating task: three sequential stimuli (a digit as context, a letter, a symbol; context first = CF, context last = CL), then a two-alternative forced choice on the target item (article). Trials are epoched from -1 s before the first stimulus to +1 s after the response; trialinfo fields as released in events.tsv.",
+  "Instructions": "n/a (see article)",
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": {
+    "AuthorsPreprocessing": {
+      "Description": "0.1 Hz high-pass and (1 kHz data) 300 Hz low-pass FIR filters, 60 Hz harmonics removed (DFT), demeaned, epoched, artifact/epileptiform electrodes and epochs removed, bipolar montage (article). UCI data resampled from 5 kHz to 1 kHz. Values written unchanged."
+    }
+  },
+  "HardwareFilters": "n/a",
+  "Manufacturer": "Nihon Kohden",
+  "iEEGReference": "bipolar montage between neighbouring contacts of the same anatomical structure (channel names give the pair)",
+  "iEEGPlacementScheme": "Clinical ECoG grids/strips and/or sEEG depth tracks (8-, 10-, 12-channel, 5 mm spacing) for epilepsy monitoring (UCI, UCD, CPMC; article). Channel type is inferred from the pair numbering (adjacent contacts = depth track, SEEG; non-adjacent = grid row, ECOG), see README.",
+  "ElectricalStimulation": false,
+  "SamplingFrequency": 1000.0,
+  "RecordingDuration": 504.725,
+  "RecordingType": "epoched",
+  "EpochLength": 6.1045,
+  "ECOGChannelCount": 37,
+  "SEEGChannelCount": 12,
+  "DBSChannelCount": 0,
+  "EEGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0
+}

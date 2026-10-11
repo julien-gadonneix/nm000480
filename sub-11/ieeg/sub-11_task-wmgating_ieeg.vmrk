@@ -1,0 +1,65 @@
+Brain Vision Data Exchange Marker File, Version 1.0
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=sub-11_task-wmgating_ieeg.eeg
+
+[Marker Infos]
+Mk1=New Segment,,1,1,0
+Mk2=New Segment,trial 2,3971,1,0
+Mk3=New Segment,trial 3,8078,1,0
+Mk4=New Segment,trial 4,12439,1,0
+Mk5=New Segment,trial 5,17056,1,0
+Mk6=New Segment,trial 6,21714,1,0
+Mk7=New Segment,trial 7,26230,1,0
+Mk8=New Segment,trial 8,30137,1,0
+Mk9=New Segment,trial 9,33757,1,0
+Mk10=New Segment,trial 10,37229,1,0
+Mk11=New Segment,trial 11,41263,1,0
+Mk12=New Segment,trial 12,45525,1,0
+Mk13=New Segment,trial 13,50765,1,0
+Mk14=New Segment,trial 14,56424,1,0
+Mk15=New Segment,trial 15,60985,1,0
+Mk16=New Segment,trial 16,65703,1,0
+Mk17=New Segment,trial 17,74915,1,0
+Mk18=New Segment,trial 18,79329,1,0
+Mk19=New Segment,trial 19,84655,1,0
+Mk20=New Segment,trial 20,89232,1,0
+Mk21=New Segment,trial 21,97328,1,0
+Mk22=New Segment,trial 22,101194,1,0
+Mk23=New Segment,trial 23,106448,1,0
+Mk24=New Segment,trial 24,113330,1,0
+Mk25=New Segment,trial 25,119084,1,0
+Mk26=New Segment,trial 26,124345,1,0
+Mk27=New Segment,trial 27,130151,1,0
+Mk28=New Segment,trial 28,136961,1,0
+Mk29=New Segment,trial 29,142518,1,0
+Mk30=New Segment,trial 30,147438,1,0
+Mk31=New Segment,trial 31,151985,1,0
+Mk32=New Segment,trial 32,159478,1,0
+Mk33=New Segment,trial 33,165966,1,0
+Mk34=New Segment,trial 34,171493,1,0
+Mk35=New Segment,trial 35,176731,1,0
+Mk36=New Segment,trial 36,184409,1,0
+Mk37=New Segment,trial 37,189079,1,0
+Mk38=New Segment,trial 38,194158,1,0
+Mk39=New Segment,trial 39,199102,1,0
+Mk40=New Segment,trial 40,203930,1,0
+Mk41=New Segment,trial 41,211955,1,0
+Mk42=New Segment,trial 42,217101,1,0
+Mk43=New Segment,trial 43,223271,1,0
+Mk44=New Segment,trial 44,228935,1,0
+Mk45=New Segment,trial 45,234043,1,0
+Mk46=New Segment,trial 46,242194,1,0
+Mk47=New Segment,trial 47,245903,1,0
+Mk48=New Segment,trial 48,251985,1,0
+Mk49=New Segment,trial 49,256497,1,0
+Mk50=New Segment,trial 50,260448,1,0
+Mk51=New Segment,trial 51,264956,1,0
+Mk52=New Segment,trial 52,269451,1,0
+Mk53=New Segment,trial 53,274301,1,0
+Mk54=New Segment,trial 54,280264,1,0
+Mk55=New Segment,trial 55,285140,1,0
+Mk56=New Segment,trial 56,292030,1,0
+Mk57=New Segment,trial 57,297535,1,0
+Mk58=New Segment,trial 58,302816,1,0
