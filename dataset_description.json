@@ -46,5 +46,7 @@
   ],
   "EthicsApprovals": [
     "Collected under research protocols approved by the Institutional Review Boards of UC Irvine, UC Davis and California Pacific Medical Center; written informed consent (article)."
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000480",
+  "Version": "1.0.0"
 }
