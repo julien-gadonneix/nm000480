@@ -1,5 +1,5 @@
 {
-  "Name": "s500-literature-171: Working-memory gating task iEEG, epoched bipolar ECoG/sEEG from 11 patients with Yeo-7 network labels (Johnson et al., 2023) (derivative)",
+  "Name": "Johnson-2023-rapid-10.1038/s41467-023-38574-7",
   "BIDSVersion": "1.10.0",
   "DatasetType": "derivative",
   "License": "CC-BY-4.0",
@@ -48,5 +48,5 @@
     "Collected under research protocols approved by the Institutional Review Boards of UC Irvine, UC Davis and California Pacific Medical Center; written informed consent (article)."
   ],
   "DatasetDOI": "10.82901/nemar.nm000480",
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
