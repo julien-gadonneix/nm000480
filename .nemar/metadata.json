@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "s500-literature-171: Working-memory gating task iEEG, epoched bipolar ECoG/sEEG from 11 patients with Yeo-7 network labels (Johnson et al., 2023) (derivative)",
-  "description": "Epoched, bipolar-referenced intracranial EEG (ECoG/sEEG) from 11 neurosurgical epilepsy patients performing a single-trial working-memory gating task with context-first and context-last conditions. This derivative repackages the authors' filtered, artifact-cleaned FieldTrip epochs from OSF into BIDS, with trial information as events, electrode positions, and Yeo-7 network labels where mappable. It supports study of theta network mechanisms in flexible information encoding.",
-  "methods_description": "Authors' preprocessed epochs (filtered, artifact-cleaned, bipolar-referenced channels) were converted from FieldTrip structs to BrainVision float32 with trials concatenated. Trial info fields were written to events.tsv and electrode positions (chanpos) to electrodes files. Channel types were inferred from bipolar pair numbering following the article's montage rule.",
+  "title": "Johnson-2023-rapid-10.1038/s41467-023-38574-7",
+  "description": "Preprocessed, bipolar-referenced intracranial EEG (sEEG and ECoG) epochs from 11 neurosurgical epilepsy patients performing a single-trial working-memory gating task with context-first and context-last conditions. This derivative dataset repackages the authors' OSF release of filtered, artifact-cleaned epochs into BIDS, with trial information, electrode positions and inferred channel types. It supports investigation of theta network mechanisms of flexible information encoding and input gating in prefrontal cortex.",
+  "methods_description": "Intracranial EEG was recorded from neurosurgical patients during a working-memory gating task. The authors' epoched, filtered, artifact-cleaned bipolar channels were converted from FieldTrip structures to BrainVision format, with trial info as events and channel positions as electrodes. Channel types were inferred from the bipolar pair numbering.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -36,23 +36,22 @@
       "term": "working memory"
     },
     {
+      "term": "Theta Rhythm",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D013826"
+    },
+    {
       "term": "input gating"
     },
     {
-      "term": "theta oscillations"
-    },
-    {
-      "term": "prefrontal cortex"
+      "term": "Prefrontal Cortex",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D017397"
     },
     {
       "term": "Epilepsy",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     }
   ],
   "related_identifiers": [
@@ -97,5 +96,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "92a6e3c856fccbf98ffe46d7e1556548b33bc2f64d12fa2fe7caab7f0d52db4e"
+  "source_hash": "a3ba16dcfc9c04eefa9a22971db2a969b2a82bc386198aa09c75bf3bfe61ec2a"
 }
