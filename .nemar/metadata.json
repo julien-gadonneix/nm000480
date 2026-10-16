@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "s500-literature-171: Working-memory gating task iEEG, epoched bipolar ECoG/sEEG from 11 patients with Yeo-7 network labels (Johnson et al., 2023) (derivative)",
-  "description": "Preprocessed, bipolar-referenced intracranial EEG (sEEG and ECoG) epochs from 11 neurosurgical epilepsy patients performing a single-trial working-memory gating task with context-first and context-last conditions. This derivative dataset repackages the authors' OSF release of filtered, artifact-cleaned epochs into BIDS, with trial information, electrode positions and inferred channel types. It supports investigation of theta network mechanisms of flexible information encoding and input gating in prefrontal cortex.",
-  "methods_description": "Intracranial EEG was recorded from neurosurgical patients during a working-memory gating task. The authors' epoched, filtered, artifact-cleaned bipolar channels were converted from FieldTrip structures to BrainVision format, with trial info as events and channel positions as electrodes. Channel types were inferred from the bipolar pair numbering.",
+  "description": "Epoched, bipolar-referenced intracranial EEG (ECoG/sEEG) from 11 neurosurgical epilepsy patients performing a single-trial working-memory gating task with context-first and context-last conditions. The derivative release repackages the authors' filtered, artifact-cleaned FieldTrip epochs into BIDS, with trial-level behavioral information, electrode positions and Yeo-7 network labels where mappable. It supports analysis of theta network mechanisms of flexible information encoding.",
+  "methods_description": "Preprocessed bipolar iEEG epochs released by the authors on OSF were converted from FieldTrip structs to BrainVision float32 format, with trialinfo fields written as events and chanpos as electrode coordinates. Channel types were inferred from bipolar pair numbering following the article's montage rule.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -36,22 +36,16 @@
       "term": "working memory"
     },
     {
-      "term": "Theta Rhythm",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D013826"
-    },
-    {
       "term": "input gating"
     },
     {
-      "term": "Prefrontal Cortex",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D017397"
+      "term": "theta rhythm"
     },
     {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+      "term": "prefrontal cortex"
+    },
+    {
+      "term": "epilepsy"
     }
   ],
   "related_identifiers": [
