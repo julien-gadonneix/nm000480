@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Johnson-2023-rapid-10.1038/s41467-023-38574-7",
+  "title": "s500-literature-171: Working-memory gating task iEEG, epoched bipolar ECoG/sEEG from 11 patients with Yeo-7 network labels (Johnson et al., 2023) (derivative)",
   "description": "Preprocessed, bipolar-referenced intracranial EEG (sEEG and ECoG) epochs from 11 neurosurgical epilepsy patients performing a single-trial working-memory gating task with context-first and context-last conditions. This derivative dataset repackages the authors' OSF release of filtered, artifact-cleaned epochs into BIDS, with trial information, electrode positions and inferred channel types. It supports investigation of theta network mechanisms of flexible information encoding and input gating in prefrontal cortex.",
   "methods_description": "Intracranial EEG was recorded from neurosurgical patients during a working-memory gating task. The authors' epoched, filtered, artifact-cleaned bipolar channels were converted from FieldTrip structures to BrainVision format, with trial info as events and channel positions as electrodes. Channel types were inferred from the bipolar pair numbering.",
   "license": "CC-BY-4.0",
@@ -96,5 +96,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "a3ba16dcfc9c04eefa9a22971db2a969b2a82bc386198aa09c75bf3bfe61ec2a"
+  "source_hash": "4ebe02851b0ae11a71e4904b9c94abaf9fffa720f40e19f2a84b3cfb778387a3"
 }
